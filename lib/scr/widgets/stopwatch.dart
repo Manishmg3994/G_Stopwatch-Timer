@@ -1,4 +1,14 @@
 
+import 'dart:async';
+import 'package:flutter/material.dart';
+
+class StopwatchTimer extends StatefulWidget {
+  const StopwatchTimer({super.key});
+
+
+  @override
+  _StopwatchTimerState createState() => _StopwatchTimerState();
+}
 
 class _StopwatchTimerState extends State<StopwatchTimer> {
   bool isRunning = false;

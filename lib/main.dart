@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'src/widgets/counter.dart';
+import 'src/widgets/stopwatch.dart';
+
 void main() => runApp(const MyApp());
 final lightTheme = ThemeData(
     brightness: Brightness.light,
