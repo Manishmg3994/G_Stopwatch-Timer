@@ -1,7 +1,6 @@
+import 'package:basic/scr/widgets/counter.dart';
+import 'package:basic/scr/widgets/stopwatch.dart';
 import 'package:flutter/material.dart';
-
-import 'src/widgets/counter.dart';
-import 'src/widgets/stopwatch.dart';
 
 void main() => runApp(const MyApp());
 final lightTheme = ThemeData(
